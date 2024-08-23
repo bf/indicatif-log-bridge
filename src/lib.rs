@@ -50,7 +50,7 @@ impl<L: Log + 'static> LogWrapper<L> {
         Self { bar, log }
     }
 
-    /// Installs this as the lobal logger,
+    /// Installs this as the global logger,
     ///
     /// tries to find the correct argument to set_max_level
     /// by reading the logger configuration,
